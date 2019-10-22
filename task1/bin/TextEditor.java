@@ -4,7 +4,9 @@ import by.ld.hw.ooptasks.task1.logic.TextEditorLogic;
 
 import java.util.Scanner;
 
-public class TextEditor {
+public class TextEditor {// эм, вот ты представь объект этого класса - это винегрет получается
+    // ты просто объединил в одном классе поля, потому что 'так легче'
+    // но этот класс станет (и уже стал) неподдерживаемым
     private Text text;
     private TextEditorLogic textEditorLogic;
     private String userInput;

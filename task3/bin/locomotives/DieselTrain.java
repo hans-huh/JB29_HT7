@@ -1,4 +1,4 @@
-package by.ld.hw.ooptasks.task3.bin.locomotives;
+package by.ld.hw.ooptasks.task3.bin.locomotives;// и вот сколько раз я говорила, что не именуются пакеты множественным числом
 
 public class DieselTrain extends Locomotive {
     private int speed;

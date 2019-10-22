@@ -1,4 +1,4 @@
-package by.ld.hw.ooptasks.task1.bin;
+package by.ld.hw.ooptasks.task1.bin;// пакет bean
 
 import java.util.Objects;
 
@@ -6,7 +6,7 @@ public class Word {
 
     private StringBuilder word;
     private int wordID;
-    private static int idCounter = 1;
+    private static int idCounter = 1;// не используй ты эти счетчики, это прямой антипаттерн, введенный Шилдом, точнее теми, кто писал за него книгу
 
     public Word(String word){
         this.word = new StringBuilder(word);
